@@ -1,0 +1,100 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 517px;
+}
+
+.u-section-1 .u-list-1 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-gap: 10px 10px;
+  grid-auto-columns: calc(50% - 5px);
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 517px;
+}
+
+.u-section-1 .u-image-1 {
+  background-image: url("https://pixabay.com/get/g81e3428899617e8a2c2ffc80f3a055a5a2c4743a363e5dc7bd02ebb7bcef8f4fe0f8e49f7073e2c764b2faaa4543e0a4f7af0654f23e3ce0cf846ba1817b68ca_1280.jpg");
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 10px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 74px 96px 0 236px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: linear-gradient(to right, #478ac9, #e68387);
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  margin: 143px auto 0;
+  padding: 24px 61px 25px 60px;
+}
+
+.u-section-1 .u-image-2 {
+  background-image: url("images/617e8a2c2ffc80f3a055a5a2c4743a363e5dc7bd02ebb7bcef8f4fe0f8e49f7073e2c764b2faaa4543e0a4f7af0654f23e3ce0cf846ba1817b68ca_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 10px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 74px 96px 0 236px;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: linear-gradient(to right, #478ac9, #e68387);
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  margin: 143px auto 0;
+  padding: 24px 61px 25px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: repeat(2, calc(50% - 5px));
+    min-height: 426px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+    margin-left: 132px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+    margin-left: 132px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: calc(100% - 0px);
+    grid-template-columns: 100%;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: 100%;
+  }
+}
